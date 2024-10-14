@@ -98,7 +98,7 @@ SELECT DISTINCT  DEPT_CODE, JOB_CODE FROM EMPLOYEE;
 -- 1. FROM 절 : FROM 테이블명
 -- 2. WHERE 절(조건절) : WHERE 컬럼명 연산자 값;
 -- 4. ORDER BY 컬럼명 | 별칭 | 컬럼 순서 [ ASC(오름차순) | DESC(내림차순)] 
--- [ NULLS FIRST | LAST(NULL값을 먼저, 나중에 보여주기) ]  (정렬)ㅒ 절 : 
+-- [ NULLS FIRST | LAST(NULL값을 먼저, 나중에 보여주기) ]  (정렬) 절 : 
 
 -- EMPLOYEE 테이블(FROM 절) 에서 급여가 3백만원 초과인 사원의 (WHERE 절)
 -- 사번, 이름, 급여, 부서코드를 조회해라 (SELECT 절)
